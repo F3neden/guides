@@ -2,14 +2,24 @@
 title: How to Create an HTML Button That Acts Like a Link
 ---
 ## How to Create an HTML Button That Acts Like a Link
+Wrap an HTML button inside a form element with the action attribute specified.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/tutorials/how-to-create-an-html-button-that-acts-like-a-link/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+**Using HTML form action Attribute:**
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```html
+<form action="link.html" method="get" target="_blank">
+    <button type="submit">Link</button>
+</form>
+```
+**Using HTML5 formaction Attribute:**
+
+```html
+<form>
+    <button type="submit" formaction="link.html">Link</button>
+</form>
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
